@@ -1,13 +1,12 @@
 import java.sql.Timestamp;
 import java.util.ArrayList;
 
-public class Page{
+public class Group {
+
     int id;
-    String intitulePage;
+    String intituleGroupe;
     Member creator;
     String genre;
     Timestamp dateCreation;
     ArrayList<Member> administrators = new ArrayList<Member>();
-
 }
-
